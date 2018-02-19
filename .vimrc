@@ -25,4 +25,4 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 " shift-tab inserts real tab
 inoremap <S-Tab> <C-V><Tab>
 
-map <F1> :wa <bar> !make <CR><CR>
+map <F1> :wa <bar> !make -j4<CR><CR>
