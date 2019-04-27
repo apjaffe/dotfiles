@@ -8,3 +8,4 @@ PATH=$PATH:~/util
 
 LC_ALL=en_US.UTF-8
 TERM=xterm-256color
+alias rsc='rsync -h -r -t --ignore-existing' # rsync when all files should be immutable
