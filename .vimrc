@@ -44,6 +44,10 @@ inoremap <S-Tab> <C-V><Tab>
 " https://vim.fandom.com/wiki/Map_semicolon_to_colon
 nmap ; :
 
+nmap <C-x> :w<CR>
+imap <C-x> <Esc> :w<CR>
+vmap <C-x> v<Esc> :w<CR>
+
 map <F1> :wa <bar> !make -j4<CR><CR>
 
 " https://stackoverflow.com/questions/5793207/prevent-vim-from-opening-binary-files-accidentally
